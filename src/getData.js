@@ -1,5 +1,5 @@
 import { showLoading } from "./toggleLoading.js";
-const url = "./data.json";
+const url = "https://raw.githubusercontent.com/kevinburle/rest-countries-api-theme-switcher-vanilla-js/main/data.json";
 
 const fetchData = async () => {
   showLoading();
