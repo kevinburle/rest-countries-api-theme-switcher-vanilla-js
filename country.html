@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REST Countries API page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <!-- header -->
+      <header>
+        <section class="topbar section-center">
+          <h1>Where in the world?</h1>
+          <button class="toggle-color btn">
+            <i class="fas fa-duotone fa-moon"></i>dark mode
+          </button>
+        </section>
+      </header>
+      <!-- end of header -->
+
+      <!-- country section -->
+      <section class="section-center country-section">
+        <a href="./index.html" class="btn back-btn"
+          ><i class="fa-solid fa-arrow-left-long"></i>back</a
+        >
+        <article class="country-container">
+          <!-- loading is fired when section is loaded with JS -->
+          <!-- loading -->
+        <p class="loading"></p>
+        <!-- end of loading -->
+        </section>
+      <!-- end of country section -->
+    </main>
+    <script type="module" src="./country.js"></script>
+  </body>
+</html>
