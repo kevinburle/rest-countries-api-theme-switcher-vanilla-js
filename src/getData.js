@@ -1,5 +1,5 @@
 import { showLoading } from "./toggleLoading.js";
-const url = "../data.json";
+const url = "./data.json";
 
 const fetchData = async () => {
   showLoading();
